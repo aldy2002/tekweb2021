@@ -1,0 +1,29 @@
+[{
+    "ID": "1",
+    "title": "M.Excel",
+    "description": "1# Tutorial to learn Microsoft Excel Indonesia discusses excel formulas, excel functions, VBA excel macros & complete excel learning tips for advanced beginners.",
+    "thumbnail": "assets/img/e.jpg",
+    "markdown": "articles_1.md"
+},
+{
+    "ID": "2",
+    "title": "M.Word",
+    "description": "A complete Microsoft Word study guide for beginners who want to learn from basic to advanced. The material is accompanied by picture.",
+    "thumbnail": "assets/img/w.jpg",
+    "markdown": "articles_2.md"
+},
+{
+    "ID": "3",
+    "title": "Editing",
+    "description": "Create Beautiful 3D Drawings, Graphics, Paintings And Artwork On Your Desktop And iPad. If You Can Dream It, You Can Make It With Photoshop.",
+    "thumbnail": "assets/img/pp.jpeg",
+    "markdown": "articles_3.md"
+},
+{
+    "ID": "4",
+    "title": "Reading",
+    "description": "Reading is an activity in the form of reciting or spelling a piece of writing.",
+    "thumbnail": "assets/img/h.jpg",
+    "markdown": "articles_3.md"
+}
+]
