@@ -17,7 +17,7 @@ Vue.createApp({
             )
             .then((res) => {              
               this.header = res.data;
-              this.getarticles();
+              this.getArticles();
             })
             .catch((error) => {
               console.log(error);
