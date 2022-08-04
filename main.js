@@ -12,7 +12,7 @@ Vue.createApp({
         getHeaderData()
         {
           axios
-            .get("https://raw.githubusercontent.com/aldy2002/AldyTekweb2022/main/assets/js/header.json"
+            .get("https://raw.githubusercontent.com/aldy2002/tekweb2021/main/assets/js/header.json"
 
             )
             .then((res) => {              
@@ -26,7 +26,7 @@ Vue.createApp({
         getAboutData()
         {
           axios
-            .get("https://raw.githubusercontent.com/aldy2002/AldyTekweb2022/main/assets/js/about.json"
+            .get("https://raw.githubusercontent.com/aldy2002/tekweb2021/main/assets/js/about.json"
 
             )
             .then((res) => {              
@@ -41,7 +41,7 @@ Vue.createApp({
         {
             axios
             .get(
-              "https://raw.githubusercontent.com/aldy2002/AldyTekweb2022/main/content/articles.json"
+              "https://raw.githubusercontent.com/aldy2002/tekweb2021/main/content/articles.json"
             )
             .then((res) => {              
               this.articles = res.data;
