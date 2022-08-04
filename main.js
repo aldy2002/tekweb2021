@@ -12,7 +12,8 @@ Vue.createApp({
         getHeaderData()
         {
           axios
-            .get("https://raw.githubusercontent.com/aldy2002/tekweb2021/main/assets/js/header.json"
+            .get(
+              "https://raw.githubusercontent.com/aldy2002/tekweb2021/main/assets/js/header.json"
 
             )
             .then((res) => {              
@@ -26,7 +27,8 @@ Vue.createApp({
         getAboutData()
         {
           axios
-            .get("https://raw.githubusercontent.com/aldy2002/tekweb2021/main/assets/js/about.json"
+            .get(
+              "https://raw.githubusercontent.com/aldy2002/tekweb2021/main/assets/js/about.json"
 
             )
             .then((res) => {              
