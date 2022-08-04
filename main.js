@@ -1,5 +1,3 @@
-let apiUrl = "https://myapi.ruang-ekspresi.id/index.php/";
-
 Vue.createApp({
     data() {
       return {
