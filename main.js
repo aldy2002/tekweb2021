@@ -17,7 +17,7 @@ Vue.createApp({
             )
             .then((res) => {              
               this.header = res.data;
-              this.getHeader();
+              this.getarticles();
             })
             .catch((error) => {
               console.log(error);
@@ -31,7 +31,7 @@ Vue.createApp({
             )
             .then((res) => {              
               this.about = res.data;
-              this.getAbout();
+              this.getArticles();
             })
             .catch((error) => {
               console.log(error);
@@ -53,5 +53,7 @@ Vue.createApp({
     },
     beforeMount() {
         this.getHeaderData()
+        this.getAboutData()
+        this.getArticles()
     }
   }).mount("#app");
