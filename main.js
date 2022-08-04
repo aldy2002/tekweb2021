@@ -37,7 +37,7 @@ Vue.createApp({
               console.log(error);
             });
         },
-        getArticles()
+        getArticlesData()
         {
             axios
             .get(
@@ -54,6 +54,6 @@ Vue.createApp({
     beforeMount() {
         this.getHeaderData()
         this.getAboutData()
-        this.getArticles()
+        this.getArticlesData()
     }
   }).mount("#app");
