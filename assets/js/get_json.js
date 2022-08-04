@@ -11,7 +11,7 @@ Vue.createApp({
         getHeaderData() {
             axios
                 .get(
-                    "https://raw.githubusercontent.com/aldy2002/AldyTekweb2022/main/assets/js/header.json"
+                    "https://raw.githubusercontent.com/aldy2002/tekweb2021/main/assets/js/header.json"
                 )
                 .then((res) => {
                     console.log(res.data); //melihat respon data pada console browser
@@ -24,7 +24,7 @@ Vue.createApp({
         getAboutData() {
             axios
                 .get(
-                    "https://raw.githubusercontent.com/aldy2002/AldyTekweb2022/main/assets/js/about.json"
+                    "https://raw.githubusercontent.com/aldy2002/tekweb2021/main/assets/js/about.json"
                 )
                 .then((res) => {
                     console.log(res.data); //melihat respon data pada console browser
@@ -37,7 +37,7 @@ Vue.createApp({
         getArticlesData() {
             axios
                 .get(
-                    "https://raw.githubusercontent.com/aldy2002/AldyTekweb2022/main/content/articles.json"
+                    "https://raw.githubusercontent.com/aldy2002/tekweb2021/main/content/articles.json"
                 )
                 .then((res) => {
                     console.log(res.data); //melihat respon data pada console browser
