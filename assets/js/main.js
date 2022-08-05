@@ -3,7 +3,7 @@ Vue.createApp({
         return {
             message: "Hello Vue",
             header: {
-                title: "Ferman Alfiansyah",
+                title: "Aldy Amrullah",
                 description: "Mahasiswa Program Studi Sistem Informasi Angkatan 2020. Universitas Ahmad Dahlan Yogyakarta.",
                 social: {
                     ig: {
