@@ -11,5 +11,8 @@
         "line": {
             "url": "https://line.me/id/"
         }
-    }
+    },
+    "imageProfile":
+      "https://raw.githubusercontent.com/aldy2002/tekweb2021/main/assets/img/3.jpg"
+  
 }
